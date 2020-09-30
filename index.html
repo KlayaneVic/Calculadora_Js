@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculadora JS</title>
+        <script src="calculo.js"></script>
+    </head>
+    <body>
+        Página Inicial <br><br>
+        <form>
+            <fieldset>
+                <p>Número 1: <input type="number" id="n1" /></p>
+                <p>Número 2: <input type="number" id="n2" /></p>
+
+                <select name="escolha" id="escolha">
+                    <option value="0">Adição</option>
+                    <option value="1">Subtração</option>
+                    <option value="2">Multiplicação</option>
+                    <option value="3">Divisão</option>
+                    <option value="4">Resto</option>
+                </select>
+
+                <button type="button" onclick="calcular()">
+                    Calcular
+                </button>
+            </fieldset>
+        </form>
+    </body>
+</html>
